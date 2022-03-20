@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="hellocucumber.RunCucumberTest" time="0.461" tests="26" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="14"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Pepe Aldana\Documents\IngSoftwareAvanzada\BDD\calculadoraBDD\hellocucumber\target\test-classes;C:\Users\Pepe Aldana\Documents\IngSoftwareAvanzada\BDD\calculadoraBDD\hellocucumber\target\classes;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\cucumber-java\7.0.0\cucumber-java-7.0.0.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\cucumber-core\7.0.0\cucumber-core-7.0.0.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\cucumber-gherkin\7.0.0\cucumber-gherkin-7.0.0.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.0.0\cucumber-gherkin-messages-7.0.0.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\tag-expressions\4.0.2\tag-expressions-4.0.2.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\cucumber-expressions\13.0.1\cucumber-expressions-13.0.1.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\datatable\7.0.0\datatable-7.0.0.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\cucumber-plugin\7.0.0\cucumber-plugin-7.0.0.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\docstring\7.0.0\docstring-7.0.0.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\create-meta\6.0.1\create-meta-6.0.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.0.0\cucumber-junit-platform-engine-7.0.0.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\platform\junit-platform-suite\1.8.1\junit-platform-suite-1.8.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\platform\junit-platform-suite-api\1.8.1\junit-platform-suite-api-1.8.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.8.1\junit-platform-suite-engine-1.8.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.8.1\junit-platform-suite-commons-1.8.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.1\junit-platform-launcher-1.8.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.1\junit-jupiter-5.8.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.1\junit-jupiter-params-5.8.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Madrid"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\Pepe Aldana\AppData\Local\Temp\surefire14597434816113446866\surefirebooter12746672752262630130.jar C:\Users\Pepe Aldana\AppData\Local\Temp\surefire14597434816113446866 2022-03-20T11-32-59_043-jvmRun1 surefire15340198950842745299tmp surefire_03118192378051714078tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Pepe Aldana\Documents\IngSoftwareAvanzada\BDD\calculadoraBDD\hellocucumber\target\test-classes;C:\Users\Pepe Aldana\Documents\IngSoftwareAvanzada\BDD\calculadoraBDD\hellocucumber\target\classes;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\cucumber-java\7.0.0\cucumber-java-7.0.0.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\cucumber-core\7.0.0\cucumber-core-7.0.0.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\cucumber-gherkin\7.0.0\cucumber-gherkin-7.0.0.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.0.0\cucumber-gherkin-messages-7.0.0.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\tag-expressions\4.0.2\tag-expressions-4.0.2.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\cucumber-expressions\13.0.1\cucumber-expressions-13.0.1.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\datatable\7.0.0\datatable-7.0.0.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\cucumber-plugin\7.0.0\cucumber-plugin-7.0.0.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\docstring\7.0.0\docstring-7.0.0.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\create-meta\6.0.1\create-meta-6.0.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.0.0\cucumber-junit-platform-engine-7.0.0.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\platform\junit-platform-suite\1.8.1\junit-platform-suite-1.8.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\platform\junit-platform-suite-api\1.8.1\junit-platform-suite-api-1.8.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.8.1\junit-platform-suite-engine-1.8.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.8.1\junit-platform-suite-commons-1.8.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.1\junit-platform-launcher-1.8.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.1\junit-jupiter-5.8.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.1\junit-jupiter-params-5.8.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Pepe Aldana"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-14.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Pepe Aldana\Documents\IngSoftwareAvanzada\BDD\calculadoraBDD\hellocucumber"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Pepe Aldana\AppData\Local\Temp\surefire14597434816113446866\surefirebooter12746672752262630130.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="14.0.2+12-46"/>
+    <property name="user.name" value="Pepe Aldana"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Pepe Aldana\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Pepe Aldana\AppData\Local\Temp\"/>
+    <property name="java.version" value="14.0.2"/>
+    <property name="user.dir" value="C:\Users\Pepe Aldana\Documents\IngSoftwareAvanzada\BDD\calculadoraBDD\hellocucumber"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-14.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-14.0.2/bin/server;C:/Program Files/Java/jdk-14.0.2/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Skype\Phone\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\PuTTY\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\AutoFirmaJA\AutoFirmaJA;C:\Users\Pepe Aldana\Documents\instantclient_19_11;C:\Program Files\MATLAB\R2021b\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Pepe Aldana\Documents\apache-maven-3.8.5\bin;C:\Users\Pepe Aldana\AppData\Local\Microsoft\WindowsApps;C:\WINDOWS\System32;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="14.0.2+12-46"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="58.0"/>
+  </properties>
+  <testcase name="Example #1" classname="Examples" time="0.098">
+    <system-out><![CDATA[
+Scenario Outline: Add two numbers          &amp#27;[90m# hellocucumber/addition.feature:32&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mA first number &amp#27;[0m&amp#27;[32m&amp#27;[1m20.5&amp#27;[0m                &amp#27;[90m# hellocucumber.StepDefinitions.a_first_number(java.lang.Double)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mA second number &amp#27;[0m&amp#27;[32m&amp#27;[1m40&amp#27;[0m                   &amp#27;[90m# hellocucumber.StepDefinitions.a_second_number(java.lang.Double)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press sum&amp#27;[0m                         &amp#27;[90m# hellocucumber.StepDefinitions.i_press_sum()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m60.5&amp#27;[0m&amp#27;[32m on screen&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.the_result_should_be_on_screen(java.lang.Double)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1" classname="Examples" time="0.006">
+    <system-out><![CDATA[
+Scenario Outline: Two numbers divided   &amp#27;[90m# hellocucumber/division.feature:32&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mA first number &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m               &amp#27;[90m# hellocucumber.StepDefinitions.a_first_number(java.lang.Double)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mA second number &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m                 &amp#27;[90m# hellocucumber.StepDefinitions.a_second_number(java.lang.Double)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press division&amp#27;[0m                 &amp#27;[90m# hellocucumber.StepDefinitions.i_press_division()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m on screen&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.the_result_should_be_on_screen(java.lang.Double)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1" classname="Examples" time="0.007">
+    <system-out><![CDATA[
+Scenario: Is primo?                                           &amp#27;[90m# hellocucumber/esPrimo.feature:31&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mA integer number &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                                    &amp#27;[90m# hellocucumber.StepDefinitions.a_integer_number(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press esPrimo&amp#27;[0m                                        &amp#27;[90m# hellocucumber.StepDefinitions.i_press_es_primo()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result for the int number should be true on screen&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.the_result_for_the_int_number_should_be_true_on_screen()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1" classname="Examples" time="0.008">
+    <system-out><![CDATA[
+Scenario: Factorial number              &amp#27;[90m# hellocucumber/factorial.feature:32&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mA integer number &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m              &amp#27;[90m# hellocucumber.StepDefinitions.a_integer_number(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press factorial&amp#27;[0m                &amp#27;[90m# hellocucumber.StepDefinitions.i_press_factorial()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m on screen&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.the_result_should_be_on_screen(java.lang.Double)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1" classname="Examples" time="0.008">
+    <system-out><![CDATA[
+Scenario Outline: Product of two numbers &amp#27;[90m# hellocucumber/product.feature:32&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mA first number &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m                &amp#27;[90m# hellocucumber.StepDefinitions.a_first_number(java.lang.Double)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mA second number &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                  &amp#27;[90m# hellocucumber.StepDefinitions.a_second_number(java.lang.Double)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press product&amp#27;[0m                   &amp#27;[90m# hellocucumber.StepDefinitions.i_press_product()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m on screen&amp#27;[0m  &amp#27;[90m# hellocucumber.StepDefinitions.the_result_should_be_on_screen(java.lang.Double)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1" classname="Examples" time="0.016">
+    <system-out><![CDATA[
+Scenario Outline: Subtract two numbers   &amp#27;[90m# hellocucumber/subtraction.feature:32&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mA first number &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m                &amp#27;[90m# hellocucumber.StepDefinitions.a_first_number(java.lang.Double)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mA second number &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                  &amp#27;[90m# hellocucumber.StepDefinitions.a_second_number(java.lang.Double)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press minus&amp#27;[0m                     &amp#27;[90m# hellocucumber.StepDefinitions.i_press_minus()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32m on screen&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.the_result_should_be_on_screen(java.lang.Double)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #2" classname="Examples" time="0.011">
+    <system-out><![CDATA[
+Scenario Outline: Add two numbers          &amp#27;[90m# hellocucumber/addition.feature:33&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mA first number &amp#27;[0m&amp#27;[32m&amp#27;[1m10.5&amp#27;[0m                &amp#27;[90m# hellocucumber.StepDefinitions.a_first_number(java.lang.Double)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mA second number &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                    &amp#27;[90m# hellocucumber.StepDefinitions.a_second_number(java.lang.Double)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press sum&amp#27;[0m                         &amp#27;[90m# hellocucumber.StepDefinitions.i_press_sum()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m10.5&amp#27;[0m&amp#27;[32m on screen&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.the_result_should_be_on_screen(java.lang.Double)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #2" classname="Examples" time="0.008">
+    <system-out><![CDATA[
+Scenario Outline: Two numbers divided    &amp#27;[90m# hellocucumber/division.feature:33&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mA first number &amp#27;[0m&amp#27;[32m&amp#27;[1m2000&amp#27;[0m              &amp#27;[90m# hellocucumber.StepDefinitions.a_first_number(java.lang.Double)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mA second number &amp#27;[0m&amp#27;[32m&amp#27;[1m100&amp#27;[0m                &amp#27;[90m# hellocucumber.StepDefinitions.a_second_number(java.lang.Double)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press division&amp#27;[0m                  &amp#27;[90m# hellocucumber.StepDefinitions.i_press_division()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m20&amp#27;[0m&amp#27;[32m on screen&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.the_result_should_be_on_screen(java.lang.Double)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #2" classname="Examples" time="0.007">
+    <system-out><![CDATA[
+Scenario: Is primo?                                           &amp#27;[90m# hellocucumber/esPrimo.feature:32&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mA integer number &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m                                    &amp#27;[90m# hellocucumber.StepDefinitions.a_integer_number(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press esPrimo&amp#27;[0m                                        &amp#27;[90m# hellocucumber.StepDefinitions.i_press_es_primo()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result for the int number should be true on screen&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.the_result_for_the_int_number_should_be_true_on_screen()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #2" classname="Examples" time="0.007">
+    <system-out><![CDATA[
+Scenario: Factorial number              &amp#27;[90m# hellocucumber/factorial.feature:33&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mA integer number &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m              &amp#27;[90m# hellocucumber.StepDefinitions.a_integer_number(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press factorial&amp#27;[0m                &amp#27;[90m# hellocucumber.StepDefinitions.i_press_factorial()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m on screen&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.the_result_should_be_on_screen(java.lang.Double)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #2" classname="Examples" time="0.011">
+    <system-out><![CDATA[
+Scenario Outline: Product of two numbers  &amp#27;[90m# hellocucumber/product.feature:33&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mA first number &amp#27;[0m&amp#27;[32m&amp#27;[1m20&amp#27;[0m                 &amp#27;[90m# hellocucumber.StepDefinitions.a_first_number(java.lang.Double)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mA second number &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m                   &amp#27;[90m# hellocucumber.StepDefinitions.a_second_number(java.lang.Double)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press product&amp#27;[0m                    &amp#27;[90m# hellocucumber.StepDefinitions.i_press_product()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m100&amp#27;[0m&amp#27;[32m on screen&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.the_result_should_be_on_screen(java.lang.Double)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #2" classname="Examples" time="0.01">
+    <system-out><![CDATA[
+Scenario Outline: Subtract two numbers     &amp#27;[90m# hellocucumber/subtraction.feature:33&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mA first number &amp#27;[0m&amp#27;[32m&amp#27;[1m20&amp#27;[0m                  &amp#27;[90m# hellocucumber.StepDefinitions.a_first_number(java.lang.Double)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mA second number &amp#27;[0m&amp#27;[32m&amp#27;[1m4.5&amp#27;[0m                  &amp#27;[90m# hellocucumber.StepDefinitions.a_second_number(java.lang.Double)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press minus&amp#27;[0m                       &amp#27;[90m# hellocucumber.StepDefinitions.i_press_minus()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m15.5&amp#27;[0m&amp#27;[32m on screen&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.the_result_should_be_on_screen(java.lang.Double)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #3" classname="Examples" time="0.009">
+    <system-out><![CDATA[
+Scenario Outline: Add two numbers         &amp#27;[90m# hellocucumber/addition.feature:34&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mA first number &amp#27;[0m&amp#27;[32m&amp#27;[1m-2&amp#27;[0m                 &amp#27;[90m# hellocucumber.StepDefinitions.a_first_number(java.lang.Double)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mA second number &amp#27;[0m&amp#27;[32m&amp#27;[1m4.5&amp#27;[0m                 &amp#27;[90m# hellocucumber.StepDefinitions.a_second_number(java.lang.Double)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press sum&amp#27;[0m                        &amp#27;[90m# hellocucumber.StepDefinitions.i_press_sum()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m2.5&amp#27;[0m&amp#27;[32m on screen&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.the_result_should_be_on_screen(java.lang.Double)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #3" classname="Examples" time="0.009">
+    <system-out><![CDATA[
+Scenario Outline: Two numbers divided   &amp#27;[90m# hellocucumber/division.feature:34&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mA first number &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                &amp#27;[90m# hellocucumber.StepDefinitions.a_first_number(java.lang.Double)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mA second number &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m                 &amp#27;[90m# hellocucumber.StepDefinitions.a_second_number(java.lang.Double)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press division&amp#27;[0m                 &amp#27;[90m# hellocucumber.StepDefinitions.i_press_division()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m on screen&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.the_result_should_be_on_screen(java.lang.Double)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #3" classname="Examples" time="0.008">
+    <system-out><![CDATA[
+Scenario: Is primo?                                            &amp#27;[90m# hellocucumber/esPrimo.feature:33&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mA integer number &amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m                                     &amp#27;[90m# hellocucumber.StepDefinitions.a_integer_number(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press esPrimo&amp#27;[0m                                         &amp#27;[90m# hellocucumber.StepDefinitions.i_press_es_primo()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result for the int number should be false on screen&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.the_result_for_the_int_number_should_be_false_on_screen()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #3" classname="Examples" time="0.012">
+    <system-out><![CDATA[
+Scenario: Factorial number                &amp#27;[90m# hellocucumber/factorial.feature:34&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mA integer number &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m                &amp#27;[90m# hellocucumber.StepDefinitions.a_integer_number(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press factorial&amp#27;[0m                  &amp#27;[90m# hellocucumber.StepDefinitions.i_press_factorial()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m120&amp#27;[0m&amp#27;[32m on screen&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.the_result_should_be_on_screen(java.lang.Double)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #3" classname="Examples" time="0.02">
+    <system-out><![CDATA[
+Scenario Outline: Product of two numbers &amp#27;[90m# hellocucumber/product.feature:34&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mA first number &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                 &amp#27;[90m# hellocucumber.StepDefinitions.a_first_number(java.lang.Double)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mA second number &amp#27;[0m&amp#27;[32m&amp#27;[1m120&amp#27;[0m                &amp#27;[90m# hellocucumber.StepDefinitions.a_second_number(java.lang.Double)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press product&amp#27;[0m                   &amp#27;[90m# hellocucumber.StepDefinitions.i_press_product()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m on screen&amp#27;[0m  &amp#27;[90m# hellocucumber.StepDefinitions.the_result_should_be_on_screen(java.lang.Double)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #3" classname="Examples" time="0.006">
+    <system-out><![CDATA[
+Scenario Outline: Subtract two numbers     &amp#27;[90m# hellocucumber/subtraction.feature:34&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mA first number &amp#27;[0m&amp#27;[32m&amp#27;[1m20.5&amp#27;[0m                &amp#27;[90m# hellocucumber.StepDefinitions.a_first_number(java.lang.Double)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mA second number &amp#27;[0m&amp#27;[32m&amp#27;[1m-4&amp#27;[0m                   &amp#27;[90m# hellocucumber.StepDefinitions.a_second_number(java.lang.Double)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press minus&amp#27;[0m                       &amp#27;[90m# hellocucumber.StepDefinitions.i_press_minus()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m24.5&amp#27;[0m&amp#27;[32m on screen&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.the_result_should_be_on_screen(java.lang.Double)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #4" classname="Examples" time="0.007">
+    <system-out><![CDATA[
+Scenario Outline: Add two numbers          &amp#27;[90m# hellocucumber/addition.feature:35&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mA first number &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                   &amp#27;[90m# hellocucumber.StepDefinitions.a_first_number(java.lang.Double)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mA second number &amp#27;[0m&amp#27;[32m&amp#27;[1m-4.5&amp#27;[0m                 &amp#27;[90m# hellocucumber.StepDefinitions.a_second_number(java.lang.Double)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press sum&amp#27;[0m                         &amp#27;[90m# hellocucumber.StepDefinitions.i_press_sum()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m-4.5&amp#27;[0m&amp#27;[32m on screen&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.the_result_should_be_on_screen(java.lang.Double)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #4" classname="Examples" time="0.013">
+    <system-out><![CDATA[
+Scenario Outline: Product of two numbers    &amp#27;[90m# hellocucumber/product.feature:35&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mA first number &amp#27;[0m&amp#27;[32m&amp#27;[1m100&amp#27;[0m                  &amp#27;[90m# hellocucumber.StepDefinitions.a_first_number(java.lang.Double)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mA second number &amp#27;[0m&amp#27;[32m&amp#27;[1m100&amp#27;[0m                   &amp#27;[90m# hellocucumber.StepDefinitions.a_second_number(java.lang.Double)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press product&amp#27;[0m                      &amp#27;[90m# hellocucumber.StepDefinitions.i_press_product()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m10000&amp#27;[0m&amp#27;[32m on screen&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.the_result_should_be_on_screen(java.lang.Double)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #4" classname="Examples" time="0.006">
+    <system-out><![CDATA[
+Scenario Outline: Subtract two numbers   &amp#27;[90m# hellocucumber/subtraction.feature:35&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mA first number &amp#27;[0m&amp#27;[32m&amp#27;[1m20.5&amp#27;[0m              &amp#27;[90m# hellocucumber.StepDefinitions.a_first_number(java.lang.Double)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mA second number &amp#27;[0m&amp#27;[32m&amp#27;[1m10.5&amp#27;[0m               &amp#27;[90m# hellocucumber.StepDefinitions.a_second_number(java.lang.Double)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press minus&amp#27;[0m                     &amp#27;[90m# hellocucumber.StepDefinitions.i_press_minus()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32m on screen&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.the_result_should_be_on_screen(java.lang.Double)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Add infinite numbers" classname="Calculator addition" time="0.007">
+    <system-out><![CDATA[
+Scenario: Add infinite numbers                   &amp#27;[90m# hellocucumber/addition.feature:37&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI add two infinite numbers&amp#27;[0m                &amp#27;[90m# hellocucumber.StepDefinitions.i_add_two_infinite_numbers()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mtest should thrown an ArithmeticException&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.test_should_thrown_an_arithmetic_exception()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Number divided by zero" classname="Calculator division" time="0.009">
+    <system-out><![CDATA[
+Scenario: Number divided by zero                 &amp#27;[90m# hellocucumber/division.feature:37&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI divide a number by zero&amp#27;[0m                 &amp#27;[90m# hellocucumber.StepDefinitions.i_divide_a_number_by_zero()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mtest should thrown an ArithmeticException&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.test_should_thrown_an_arithmetic_exception()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Factorial of huge numbers" classname="Calculator factorial" time="0.009">
+    <system-out><![CDATA[
+Scenario: Factorial of huge numbers                       &amp#27;[90m# hellocucumber/factorial.feature:37&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI try to test the factorial for a number > sixteen&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.i_try_to_test_the_factorial_for_a_number_thirteen()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mtest should thrown an ArithmeticException&amp#27;[0m          &amp#27;[90m# hellocucumber.StepDefinitions.test_should_thrown_an_arithmetic_exception()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Product of infinite numbers" classname="Calculator product" time="0.006">
+    <system-out><![CDATA[
+Scenario: Product of infinite numbers            &amp#27;[90m# hellocucumber/product.feature:37&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI multiply two infinite numbers&amp#27;[0m           &amp#27;[90m# hellocucumber.StepDefinitions.i_multiply_two_infinite_numbers()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mtest should thrown an ArithmeticException&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.test_should_thrown_an_arithmetic_exception()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Subtract infinite numbers" classname="Calculator subtraction" time="0.003">
+    <system-out><![CDATA[
+Scenario: Subtract infinite numbers              &amp#27;[90m# hellocucumber/subtraction.feature:37&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI subtract two infinite numbers&amp#27;[0m           &amp#27;[90m# hellocucumber.StepDefinitions.i_subtract_two_infinite_numbers()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mtest should thrown an ArithmeticException&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.test_should_thrown_an_arithmetic_exception()&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
